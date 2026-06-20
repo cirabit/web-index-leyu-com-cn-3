@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简明指南 · 华体会</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #fafaf8;
+      color: #1f2a30;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1.5rem 4rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .page {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* 静谧开场 */
+    .opening {
+      margin: 1.2rem 0 2.2rem;
+      font-size: 1.3rem;
+      font-weight: 350;
+      letter-spacing: 0.02em;
+      color: #2c3e44;
+      border-left: 3px solid #b3c6cf;
+      padding-left: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 420;
+      letter-spacing: -0.02em;
+      margin: 0.8rem 0 0.2rem;
+      color: #1f2a30;
+    }
+
+    .subhead {
+      font-size: 1rem;
+      color: #5d6f79;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #dfe6e9;
+      padding-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 450;
+      margin: 2.4rem 0 1rem;
+      color: #1f2a30;
+      letter-spacing: 0.01em;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+    }
+
+    a {
+      color: #2f5b6b;
+      text-decoration: none;
+      border-bottom: 1px solid #c7d6dd;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      border-bottom-color: #1f2a30;
+      color: #1f2a30;
+    }
+
+    .feature-list {
+      list-style: none;
+      margin: 2rem 0 2.5rem;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.8rem;
+    }
+
+    .feature-list li {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      border: 1px solid #eef2f3;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .feature-list li::before {
+      content: "·";
+      font-size: 1.5rem;
+      line-height: 1;
+      color: #6e8b94;
+      margin-right: 0.25rem;
+    }
+
+    .highlight-box {
+      background: #f4f6f5;
+      border-radius: 12px;
+      padding: 1.8rem 2rem;
+      margin: 2.4rem 0;
+      border: 1px solid #e2e9e6;
+    }
+
+    .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-question {
+      font-weight: 450;
+      margin-bottom: 0.2rem;
+      color: #1f2a30;
+    }
+
+    .faq-answer {
+      color: #4a5b64;
+      font-size: 0.95rem;
+    }
+
+    .closing {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #dfe6e9;
+      font-size: 0.95rem;
+      color: #5d6f79;
+    }
+
+    @media (min-width: 600px) {
+      body {
+        padding: 3rem 2.5rem 5rem;
+      }
+
+      .opening {
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .feature-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .highlight-box {
+        padding: 1.2rem;
+      }
+
+      .feature-list li {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- 开场短句 -->
+    <div class="opening">
+      做一个清晰的选择，往往比匆忙开始更重要。
+    </div>
+
+    <h1>从细节认识华体会</h1>
+    <div class="subhead">一份偏向知识型的简明指南 · 访问前后可读</div>
+
+    <!-- 承接段落：引出访问提醒与认知框架 -->
+    <p>
+      无论你是在寻找一个功能清晰的信息平台，还是想了解服务背后的逻辑，<a href="https://webs--hth.com">华体会</a>提供的结构都值得花几分钟熟悉。许多用户最初被简洁的界面吸引，但真正让体验持续顺畅的，是那些不太起眼的操作习惯和内容分区。下面这份纲要，不包含夸张的承诺，只记录实际使用中容易忽略的细节。
+    </p>
+
+    <!-- 特点列表 (卡片式) -->
+    <h2>几个值得注意的特点</h2>
+    <ul class="feature-list">
+      <li>页面层级不超过三层，主要功能可以在两次点击内到达，减少中途迷失的可能。</li>
+      <li>信息展示以文字为主，辅助少量图标，阅读时几乎不被视觉元素打断。</li>
+      <li>响应布局对窄屏友好，移动端段落宽度舒适，按钮和链接间距充足。</li>
+      <li>更新日志和通知区域独立放置，与主体内容分开，避免信息堆叠造成混淆。</li>
+      <li>搜索入口直观，关键词匹配偏向完整词组，对专业术语的识别较准确。</li>
+    </ul>
+
+    <!-- 场景与提示 (温和提醒) -->
+    <div class="highlight-box">
+      <h2 style="margin-top: 0; font-size: 1.1rem;">访问前后的几个提醒</h2>
+      <p>
+        首次打开时，建议先浏览导航顶部的一级条目，对整体分区建立印象。如果使用公共设备，记得在离开前退出账号——这个操作在账户菜单最底部，不与其他功能混排。遇到加载延迟时，页面通常会显示一个简单的状态文本，而不是转圈动画，这能帮你判断是等待还是网络问题。
+      </p>
+      <p>
+        另外，部分内容区域（如帮助文档）会在夜间时段自动切换为低对比度主题，不影响阅读，但对敏感眼睛更友好。这些细微的调整来自长期使用者的反馈，而不是一次性的设计改动。
+      </p>
+    </div>
+
+    <!-- FAQ 摘要 (知识型) -->
+    <h2>常见疑问摘要</h2>
+    <div class="faq-item">
+      <div class="faq-question">是否需要注册才能浏览主要内容？</div>
+      <div class="faq-answer">大部分信息类页面可以直接阅读，只有涉及个性化设置或数据保存的功能才需要账号。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">不同设备之间的操作体验一致吗？</div>
+      <div class="faq-answer">核心交互保持一致，但触屏设备上部分悬停提示会替换为点击触发，这在帮助页里有专门说明。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">如何快速了解近期变更？</div>
+      <div class="faq-answer">页面底部右侧有一个“更新记录”入口，按时间倒序列出，每条都附有改动理由。</div>
+    </div>
+
+    <!-- 温和结尾 -->
+    <div class="closing">
+      了解一个平台的风格，最好的方式不是一次性读完所有介绍，而是在实际使用中逐渐察觉它的设计意图。希望这份简要的叙述，能为你节省一些摸索的时间。<br>
+      <span style="display: inline-block; margin-top: 0.8rem; color: #6e8b94;">—— 基于日常使用记录整理，不构成任何形式的指引。</span>
+    </div>
+  </div>
+</body>
+</html>
